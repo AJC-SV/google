@@ -1,0 +1,67 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.header{
+    background: #ffffff;
+    height: 50px;
+}
+
+.navegador{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+a{
+    margin-right: 10px
+}
+
+/*
+.seccion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.logo{
+    height: 100%;
+}
+
+input{
+    width: 50%;
+    font-size: 28px;
+    border-radius: 20px;
+    border: 1px solid #dddada;
+}
+
+input:focus{
+    outline: none;
+    border: 1.5px solid rgb(179, 179, 236);
+}
+
+.principal{
+    text-align: center;
+}
+
+.botones button{
+    background: #f0eded;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.google{
+    font-size: 18px;
+}
+
+.a{
+    color: black;
+}
+
+.b{
+    color: blue;
+}
